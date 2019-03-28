@@ -32,6 +32,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="sxz-39-0Xk">
+                        <barButtonItem key="leftBarButtonItem" title="Find Text" id="CYZ-RY-l63">
+                            <connections>
+                                <action selector="findTextDidTouch:" destination="BYZ-38-t0r" id="6O6-uo-Szb"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="jpt-rz-nkB">
                             <connections>
                                 <action selector="cameraTapped:" destination="BYZ-38-t0r" id="a6m-d6-3zS"/>
@@ -39,6 +44,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="findTextButton" destination="CYZ-RY-l63" id="WzJ-Ni-5zf"/>
                         <outlet property="imageView" destination="aIx-tp-OXn" id="2B8-Ch-15Y"/>
                     </connections>
                 </viewController>
