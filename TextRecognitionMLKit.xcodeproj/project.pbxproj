@@ -88,7 +88,6 @@
 				4E75794027C13CC14E366EE9 /* Pods-TextRecognitionMLKit.debug.xcconfig */,
 				4770F210EA714893DE1BC43C /* Pods-TextRecognitionMLKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
